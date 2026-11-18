@@ -1,6 +1,6 @@
 /* Service worker: precaches the whole app at install, then works fully offline.
    During the build the list below is replaced with the real file names. */
-const VERSION = '1c6d2199ea22';
+const VERSION = 'e05af9d1bd8c';
 const PRECACHE = ["./", "./app.css", "./app.js", "./apple-touch-icon.png", "./icon-192.png", "./icon-32.png", "./icon-512.png", "./icon-maskable-512.png", "./index.html", "./manifest.webmanifest"];
 const CACHE = 'spokoistvie-' + VERSION;
 
