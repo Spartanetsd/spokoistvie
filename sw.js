@@ -1,7 +1,7 @@
 /* Service worker: precaches the whole app at install, then works fully offline.
    During the build the list below is replaced with the real file names. */
-const VERSION = 'a8a1638c3c46';
-const PRECACHE = ["./", "./app.css", "./app.js", "./apple-touch-icon.png", "./banner-after.webp", "./banner-before.webp", "./banner-library.webp", "./banner-provocations.webp", "./banner-sleep.webp", "./banner-together.webp", "./crest.webp", "./icon-192.png", "./icon-32.png", "./icon-512.png", "./icon-maskable-512.png", "./index.html", "./manifest.webmanifest", "./thumb-after.webp", "./thumb-before.webp", "./thumb-library.webp", "./thumb-provocations.webp", "./thumb-sleep.webp", "./thumb-together.webp"];
+const VERSION = 'bb443ed31d93';
+const PRECACHE = ["./", "./app.css", "./app.js", "./apple-touch-icon.png", "./banner-after.webp", "./banner-before.webp", "./banner-blast.webp", "./banner-library.webp", "./banner-provocations.webp", "./banner-sleep.webp", "./banner-together.webp", "./crest.webp", "./icon-192.png", "./icon-32.png", "./icon-512.png", "./icon-maskable-512.png", "./index.html", "./manifest.webmanifest", "./thumb-after.webp", "./thumb-before.webp", "./thumb-blast.webp", "./thumb-library.webp", "./thumb-provocations.webp", "./thumb-sleep.webp", "./thumb-together.webp"];
 const CACHE = 'spokoistvie-' + VERSION;
 
 self.addEventListener('install', (event) => {
