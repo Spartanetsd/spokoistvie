@@ -1,7 +1,7 @@
 /* Service worker: precaches the whole app at install, then works fully offline.
    During the build the list below is replaced with the real file names. */
-const VERSION = '90d450f46892';
-const PRECACHE = ["./", "./app.css", "./app.js", "./apple-touch-icon.png", "./banner-after.webp", "./banner-before.webp", "./banner-blast.webp", "./banner-library.webp", "./banner-provocations.webp", "./banner-sleep.webp", "./banner-together.webp", "./crest.webp", "./icon-192.png", "./icon-32.png", "./icon-512.png", "./icon-maskable-512.png", "./index.html", "./manifest.webmanifest", "./thumb-after.webp", "./thumb-before.webp", "./thumb-blast.webp", "./thumb-library.webp", "./thumb-provocations.webp", "./thumb-sleep.webp", "./thumb-together.webp"];
+const VERSION = 'e5b6d6d2f69d';
+const PRECACHE = ["./", "./app.css", "./app.js", "./apple-touch-icon.png", "./banner-after.webp", "./banner-before.webp", "./banner-blast.webp", "./banner-library.webp", "./banner-provocations.webp", "./banner-sleep.webp", "./banner-together.webp", "./crest.webp", "./icon-192.png", "./icon-32.png", "./icon-512.png", "./icon-maskable-512.png", "./index.html", "./manifest.webmanifest", "./splash-1170x2532.png", "./splash-1179x2556.png", "./splash-1206x2622.png", "./splash-1260x2736.png", "./splash-1290x2796.png", "./splash-1320x2868.png", "./thumb-after.webp", "./thumb-before.webp", "./thumb-blast.webp", "./thumb-library.webp", "./thumb-provocations.webp", "./thumb-sleep.webp", "./thumb-together.webp"];
 const CACHE = 'spokoistvie-' + VERSION;
 
 self.addEventListener('install', (event) => {
